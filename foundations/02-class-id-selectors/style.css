@@ -1,4 +1,9 @@
-.odd {
+.odd,
+.third {
     background-color: lightcoral;
-    font-family: Verdana, DejaVu Sans, sans-serif;   
+    font-family: Verdana, DejaVu Sans, sans-serif;
+}
+
+.third {
+    font-size: 24px;
 }
