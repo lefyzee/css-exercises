@@ -5,6 +5,8 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
 }
 
 img {
@@ -26,14 +28,9 @@ input {
 }
 
 .header{
-  top: 0;
-  left: 0;
-  right: 0;
   display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
-  gap: 12px;
-  background: #eee;
+  justify-content: space-between;
+  padding: 16px
 }
 
 .right-links {
@@ -47,6 +44,8 @@ a {
 
 ul {
   list-style-type: none;
+  display: flex;
+  gap: 16px;
 }
 
 .footer {
@@ -54,9 +53,9 @@ ul {
   bottom: 0;
   left: 0;
   right: 0;
-  height: 52px;
   display: flex;
   align-items: center;
   justify-content: center;
   background: #eee;
+  padding: 12px;
 }
