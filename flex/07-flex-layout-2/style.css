@@ -8,22 +8,51 @@ body {
   height: 72px;
   background: darkmagenta;
   color: white;
+  display: flex;
+  font-weight: bolder;
+  align-items: center;
+  justify-content: flex-start;
 }
 
 .footer {
   height: 72px;
   background: #eee;
   color: darkmagenta;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .sidebar {
   width: 300px;
   background: royalblue;
   box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
 }
 
 .card {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: 16px;
+  gap: 8px;
+}
+
+.sidecards {
+  display: flex;
+  justify-content: flex-start;
+  flex: 1
 }
