@@ -25,9 +25,9 @@ a {
   height: 72px;
   background: darkmagenta;
   color: white;
-  padding-left: 8px;
+  padding-left: 16px;
   display: flex;
-  font-weight: bolder;
+  font-weight: 900;
   align-items: center;
   justify-content: flex-start;
 }
@@ -49,15 +49,15 @@ a {
   width: 300px;
   background: royalblue;
   box-sizing: border-box;
-  display: flex;
-  justify-content: center;
-  padding: 0;
+  font-size: 24px;
+  padding: 16px;
 }
 
 .card {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
+  padding: 48px;
 }
 
 .cards {
@@ -66,10 +66,10 @@ a {
   align-items:first baseline;
   flex-wrap: 16px;
   gap: 16px;
+  flex: 1;
 }
 
 .sidecards {
   display: flex;
-  justify-content: flex-start;
   flex: 1;
 }
